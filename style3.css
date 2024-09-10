@@ -1,0 +1,47 @@
+body , h1, h2 ,p{
+    marging : 0;
+    padding : 0;
+}
+body {
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #1a1212;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 1 rem;
+}
+main{
+    padding:2rem;
+
+}
+.profile{
+    display : flex;
+    align-items: center;
+}
+.photo{
+    flex: 1;
+    padding: 0 2rem;
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio{
+    flex: 2;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #0c0b0a;
+    color: #ebe3e1;
+}
+@media screen and(max-width:768px)
+{
+    .profile{
+        flex-direction: column;
+    }
+}
